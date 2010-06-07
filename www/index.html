@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<title>MarkUs Project</title>
+</head>
+<body>
+<div id="container">
+<div id="content">
+
+<div id="logo-box">
+  <img src="markus_logo_big.png" alt="[Logo] Markus"/>
+</div>
+
+<h2 id="main">MarkUs Project: Online Marking Made Easy</h2>
+
+<p>MarkUs (pronounced "mark us") is an open-source tool which recreates the ease
+and flexibility of grading assignments with pen on paper, within a web
+application. It also allows students and instructors to form groups, and
+collaborate on assignments. Its predecessor OLM (Online Marking) was originally
+written in Python on top of the TurboGears framework.</p>
+
+<p>The MarkUs project is a re-implementation of the Online Marking system using
+Ruby on Rails. The goal of this project is to take what we learned from OLM and
+our forays into Web-CAT, and build a web-based marking tool that includes an
+early submission and testing system in support of test driven development.</p>
+
+<div>
+<div id="links-box">
+<h2>Links</h2>
+
+<ul class="linklist">
+  <li><a href="mailto:security@markusproject.org">Email a security alert</a></li>
+  <li> <a href="mailto:info@markusproject.org">Email a general inquiry</a></li>
+  <li><a href="http://blog.markusproject.org">Blog</a></li>
+  <li><a href="http://www.markusproject.org/admin-demo">Sandbox</a></li>
+  <li><a href="https://stanley.cdf.toronto.edu/svn/csc49x/olm_rails/">Source Code</a></li>
+  <li><a href="http://review.markusproject.org/r/">ReviewBoard</a></li>
+  <li><a href="http://www.markusproject.org/dev/app_doc/">MarkUs RDoc</a></li>
+  <li><a href="http://www.markusproject.org/dev/test_coverage/">Test Coverage</a></li>
+  <li><a href="http://www.markusproject.org/dev/unit_tests_report.html">Units Test Report</a></li>
+  <li><a href="http://www.markusproject.org/dev/functional_tests_report.html">Functional Test Report</a></li>
+  <li>IRC <a href="irc://irc.freenode.net/#markus">Channel</a> (<a href="http://www.cs.toronto.edu/~mconley/irc/markus/">Logs</a>) </li>
+  <li>Mailing list: <a href="mailto:markus-users@cs.toronto.edu">MarkUs Users</a> </li>
+</ul>
+
+</div>
+<h2>Features</h2>
+
+<ul>
+  <li>Graders can easily annotate students' code (overlapping annotations, graded source code remains untouched)</li>
+  <li>Subversion storage back-end</li>
+  <li>Instructors can form teams</li>
+  <li>Students can form groups on their own</li>
+  <li>Supports different course models:
+    <ul>
+      <li>Web-based file upload for first-year courses</li>
+      <li>Subversion client commits for upper year courses (disabled Web-upload)</li>
+      <li>Allows students to work on code of other groups from one assignment to the next</li>
+    </ul>
+  </li>
+  <li>Web-based course administration</li>
+  <li>One MarkUs application per course (independent databases across courses)</li>
+</ul>
+
+<h2>Sandbox</h2>
+<p>If you are interested in MarkUs and would like to try it out, there is a <a href="http://www.markusproject.org/admin-demo">MarkUs sandbox installation</a> available. For information as to how to use the demo instance please see our <a href="http://blog.markusproject.org/?p=219">"How to use the demo server"</a> blog post. We hope you will enjoy it and please let us know how you liked it: <a href="mailto:info@markusproject.org">info@markusproject.org</a>.
+</p>
+
+<h2>System Requirements</h2>
+
+<ul>
+  <li>Rails &gt;= 2.2.x/Ruby &gt;= 1.8.x</li>
+  <li>Mongrel/Passenger</li>
+  <li>PostgreSQL/MySQL</li>
+  <li>Subversion</li>
+</ul>
+
+<p><strong>Note:</strong> As of now, the latest stable version is <strong>MarkUs 0.7.1</strong>. It is still a work in progress, though. There are a lot of features we plan to add soon. Here is our current <a href="https://stanley.cdf.toronto.edu/drproject/csc49x/olm_rails/wiki/InstallProdStable">deployment/configuration documentation</a>. Please <a href="mailto:markus-users@cs.toronto.edu">send us
+email</a> if you have any trouble installing MarkUs---we'd be happy to help
+you out.</p>
+
+<h2>Downloads<a name="downloads">&nbsp;</a></h2>
+
+<table>
+<thead>
+<tr>
+  <th>Release Date</th>
+  <th>Version</th>
+  <th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>2010-06-01</td>
+  <td><a href="http://www.markusproject.org/download/markus-0.7.1.tar.gz">0.7.1</a></td>
+  <td>Our third major release. Please see our <a href="https://stanley.cdf.toronto.edu/drproject/csc49x/olm_rails/wiki/InstallProdStable">Installation Instructions</a> and our <a href="http://blog.markusproject.org/?p=1528">Release Notice</a>.<br /><a href="http://markusproject.org/dev/patches/0.7/markus-0.7.1.patch">Click here to patch up to 0.7.1</a></td>
+</tr>
+<tr>
+  <td>Daily</td>
+  <td><a href="http://www.markusproject.org/dev/snapshots/markus_dev_latest.tar.bz2">0.01 alpha</a></td>
+  <td><strong>Note:</strong> This is no official release. It is a nightly development snapshot. <a href="https://stanley.cdf.toronto.edu/drproject/csc49x/olm_rails/wiki/InstallProdStable">Installation Instructions</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>Who is Using MarkUs?</h2>
+<ul>
+
+  <li><a href="http://web.cs.toronto.edu">Department of Computer Science</a>, University of Toronto, Canada</li>
+  <li><a href="http://www.cs.uwaterloo.ca">School of Computer Science</a>, University of Waterloo, Canada</li>
+  <li><a href="http://www.ec-nantes.fr">Ecole Centrale de Nantes</a>, France</li>
+
+</ul>
+
+<h2>Staying in Touch</h2>
+
+<p>Want the latest MarkUs news?  It's available several ways:</p>
+
+<ul>
+
+  <li>General queries can be sent to <a href="mailto:info@markusproject.org">info@markusproject.org</a>.</li>
+
+  <li>The development team has a blog at <a href="http://blog.markusproject.org">http://blog.markusproject.org</a>.</li>
+
+  <li>There is a mailing list for <a href="mailto:markus-users@cs.toronto.edu">MarkUs users</a>. You can also find us on IRC in the <a href="irc://irc.freenode.net/#markus">#markus</a> channel on FreeNode.</li>
+
+  <li>We use <a href="http://review.markusproject.org">Review Board</a> to manage code reviews.  You can view our development activity using our <a href="https://stanley.cdf.toronto.edu/drproject/csc49x/olm_rails/timeline">event log</a>.</li>
+
+</ul>
+
+<h2>Screencasts<a name="screencasts">&nbsp;</a></h2>
+<p>Here are are some screencasts of MarkUs (reverse chronological order):</p>
+<ul>
+  <li><a href="http://www.youtube.com/watch?v=ofpyaty20FQ">Student File Submission: September 2, 2009</a><br/>
+  This screencast demonstrates how students can upload, replace and delete files  using MarkUs' easy to use Web interface. The nice part is that files really end up in a Subversion repository (without students ever noticing).
+  </li>
+  <li><a href="http://www.youtube.com/watch?v=Ed_z_tHCAg8">Student Group Formation: August 17, 2009</a><br/>
+  MarkUs supports various course models. One possibility of which is that an instructor can allow students to work in teams. If an Assignment is set up this way, students can go and start form groups on their own using MarkUs.
+  </li>
+  <li><a href="http://www.cs.toronto.edu/~reid/screencasts/OLM-2009-06-03.swf">The Grader View: June 6, 2009</a><br/>
+  The grader view is one of the core functionalities of MarkUs, which allows graders (usually TAs) to mark a student's/group's work for an assignment. He or she can annotate the submitted source code - which is syntax highlighted - and mark according to rubrics defined by the instructor.
+  </li>
+</ul>
+
+<h2>Helping Out</h2>
+
+<p>Found a bug?  Want a feature?  Please email <a href="mailto:info@markusproject.org">info@markusproject.org</a>.</p>
+
+
+<h2>Credits</h2>
+
+<p>MarkUs grew out of OLM, which was build using the TurboGears framework.  We are grateful to everyone who worked on or funded both projects, and to the creators of <a href="http://www.rubyonrails.org">Ruby on Rails</a> for building such a great framework.</p>
+
+<p>MarkUs' development has been supported by the <a href="http://www.utoronto.ca">University of Toronto</a>, et. al.  Kudos to everyone who turned that support into working code.</p>
+
+<ul>
+<li><strong>Fall 2008:</strong> Geoffrey Flores, Mike Conley, Andrew Louis, Justin Foong</li>
+<li><strong>Winter 2009:</strong> Mike Conley, Veronica Wong, Amanda Manarin, Severin Gehwolf, Catherine
+Fawcett</li>
+<li><strong>Summer 2009:</strong> Mike Conley, Severin Gehwolf, Nelle Varoquaux, Neha Kumar</li>
+<li><strong>Fall 2009:</strong> Mike Conley, Gabriel Roy-Lortie, Simon Lavigne-Giroux, M&eacute;lanie Gaudet, Nelle Varoquaux, Fernando Garces, Tara Clark, Farah Juma, Severin Gehwolf</li>
+<li><strong>Winter 2010:</strong> Mike Conley, Benjamin Vialle, Christian Jacques, Nelle Varoquaux, Victoria Mui, Joseph Mat&eacute;, Robert Burke, Bryan Shen, Brian Xu, Fernando Garces, Farah Juma, Severin Gehwolf</li>
+<li><strong>Industry Advisors:</strong> Mike Gunderloy, Adam Goucher</li>
+<li><strong>Supervisor:</strong> Karen Reid</li>
+</ul>
+
+<h2>License</h2><a name="license"></a>
+
+<p>MarkUs is made available under the <a href="http://www.opensource.org">OSI</a>-approved <a href="http://www.opensource.org/licenses/mit-license.html">MIT license</a>.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+</div>
+
+<div id="copyright">
+  <p>Copyright (c) 2008-2010 by the authors.</p>
+</div>
+
+</div>
+</div>
+</body>
+</html>

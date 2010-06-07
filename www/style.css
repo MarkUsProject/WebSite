@@ -1,0 +1,65 @@
+div#container {
+  position: absolute;
+  left: 50%;
+  width: 900px;
+  margin-left: -450px;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  font-size: 0.8em; 
+  color: Black;
+}
+div#content {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+div#logo-box {
+  clear: both;
+  margin-bottom: 30px;
+}
+div#logo-box img {
+  width: 270px;
+  padding-right: 2em;
+  position: absolute;
+  right: 0px;
+}
+div#links-box {
+  float: right;
+  padding-left: 2em;
+}
+div#links-box h2 {
+  margin: 0px;
+}
+div#copyright {
+  position: absolute;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  color: #ccc;
+  text-align: center;
+}
+h2#main {
+  margin-top: 70px;
+}
+h2 {
+  margin-top: 1.5em;
+  color: rgb(0, 34, 85);
+}
+a {
+  color: rgb(0, 68, 170);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+table td, table th {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+thead th {
+  background-color: #ccc;
+}
+body {
+  padding: 20px;
+}
