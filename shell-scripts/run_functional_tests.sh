@@ -13,7 +13,7 @@ LOGFILE="log/functional_tests_report.log"
 LOGFILE2="log/functional_tests_report_single.log"
 
 cd /home/markus/test_report
-svn up
+git pull origin master
 RAILS_ENV="production" rake db:migrate > /dev/null 2>&1 # avoid pending migrations error
 
 date +Generated\ %h,\ %d\ at\ %T\ %Z > $LOGFILE 2>&1
