@@ -13,6 +13,7 @@ LOGFILE="log/unit_tests_report.log"
 LOGFILE2="log/unit_tests_report_single.log"
 
 cd /home/markus/test_report
+rm -fr /home/markus/test_report/log/*.log
 svn up
 rake db:migrate "RAILS_ENV=production" > /dev/null 2>&1 # avoid pending migrations error
 
