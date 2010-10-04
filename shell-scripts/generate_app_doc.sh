@@ -11,5 +11,5 @@ export PATH
 
 LOGFILE="log/generate_doc.log"
 cd /home/markus/rdoc
-git pull origin master > $LOGFILE 2>&1
+git pull -q origin master > $LOGFILE 2>&1
 rake doc:reapp >> $LOGFILE 2>&1
