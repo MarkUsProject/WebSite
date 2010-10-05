@@ -16,7 +16,7 @@ rm -rf $MARKUS_APP_PATH/log/*
 
 # change dir to markus app
 cd $MARKUS_APP_PATH
-git pull -q origin master
+git pull -q origin master > $LOGFILE 2>&1
 rake db:reset "RAILS_ENV=test" >> /dev/null 2>&1
 sleep 1
 rake db:migrate "RAILS_ENV=test" > /dev/null 2>&1 # run migrations
