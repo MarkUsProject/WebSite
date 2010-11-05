@@ -17,7 +17,7 @@ LOGFILE3="log/unit_tests_report_update.log"
 cd /home/markus/test_report
 rm -fr /home/markus/test_report/log/*.log
 git pull -q origin master > $LOGFILE3 2>&1
-bundle install
+bundle install > $LOGFILE3 2>&1
 rake db:migrate "RAILS_ENV=production" > /dev/null 2>&1 # avoid pending migrations error
 
 date +Generated\ %h,\ %d\ at\ %T\ %Z > $LOGFILE 2>&1
