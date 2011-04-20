@@ -16,7 +16,7 @@ rm -rf $MARKUS_APP_PATH/log/*
 
 # change dir to markus app
 cd $MARKUS_APP_PATH
-git pull -q origin master > $RCOV_LOG 2>&1
+git pull -q --force origin master > $RCOV_LOG 2>&1
 bundle install > $RCOV_LOG 2>&1
 rake db:reset "RAILS_ENV=test" >> /dev/null 2>&1
 sleep 1
