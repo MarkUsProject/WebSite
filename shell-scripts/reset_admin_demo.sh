@@ -11,9 +11,10 @@ export RAILS_ENV="production" 	# we want the prod-system reset
 
 LOGFILE="log/reset_admin_demo_db.log"
 
-cd /home/markus/sandbox/markus_trunk
+cd /home/markus/demo/markus
 git pull origin master >> $LOGFILE 2>&1
 bundle install > $LOGFILE 2>&1
-rake repos:drop > $LOGFILE 2>&1
-rake db:reset RAILS_ENV=production > $LOGFILE 2>&1
-rake markus:usability_test_setup RAILS_ENV=production > $LOGFILE 2>&1
+bundle exec rake repos:drop > $LOGFILE 2>&1
+bundle exec rake db:reset RAILS_ENV=production > $LOGFILE 2>&1
+bundle exec rake db:populate RAILS_ENV=production > $LOGFILE 2>&1
+bundle exec rake load:results short_id=A3 RAILS_ENV=production > $LOGFILE 2>&1
