@@ -18,10 +18,10 @@ rm -rf $MARKUS_APP_PATH/log/*
 cd $MARKUS_APP_PATH
 git pull -q --force origin master > $RCOV_LOG 2>&1
 bundle install > $RCOV_LOG 2>&1
-rake db:reset "RAILS_ENV=test" >> /dev/null 2>&1
+bundle exec rake db:reset "RAILS_ENV=test" >> /dev/null 2>&1
 sleep 1
-rake db:migrate "RAILS_ENV=test" > /dev/null 2>&1 # run migrations
+bundle exec rake db:migrate "RAILS_ENV=test" > /dev/null 2>&1 # run migrations
 sleep 1
 # generate coverage for unit and functional tests
-rcov --no-html -T -x "/home/markuspr/ruby/.*,rcov.*,lib/.*" --rails  -I"lib:test" "/var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb" `ls test/unit/*.rb` --aggregate $MARKUS_APP_PATH/coverage.data  > $RCOV_LOG 2>&1
-rcov -o "$MARKUS_APP_PATH/coverage" -T -x "/home/markuspr/ruby/.*,rcov.*,lib/.*" --rails  -I"lib:test" "/var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb" `ls test/functional/*.rb` --aggregate $MARKUS_APP_PATH/coverage.data > $RCOV_LOG 2>&1
+bundle exec rcov --no-html -T -x "/home/markuspr/ruby/.*,rcov.*,lib/.*" --rails  -I"lib:test" "/var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb" `ls test/unit/*.rb` --aggregate $MARKUS_APP_PATH/coverage.data  > $RCOV_LOG 2>&1
+bundle exec rcov -o "$MARKUS_APP_PATH/coverage" -T -x "/home/markuspr/ruby/.*,rcov.*,lib/.*" --rails  -I"lib:test" "/var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb" `ls test/functional/*.rb` --aggregate $MARKUS_APP_PATH/coverage.data > $RCOV_LOG 2>&1
