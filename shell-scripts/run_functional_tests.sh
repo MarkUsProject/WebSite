@@ -16,23 +16,23 @@ LOGFILE3="log/functional_tests_report_update.log"
 cd /home/markus/test_report
 git pull -q origin master > $LOGFILE3 2>&1
 bundle install > $LOGFILE3 2>&1
-RAILS_ENV="production" rake db:migrate > /dev/null 2>&1 # avoid pending migrations error
+RAILS_ENV="production" bundle exec rake db:migrate > /dev/null 2>&1 # avoid pending migrations error
 
 date +Generated\ %h,\ %d\ at\ %T\ %Z > $LOGFILE 2>&1
 echo >> $LOGFILE 2>&1
 # prepare test database
 #rake db:test:purge "RAILS_ENV=test">> $LOGFILE 2>&1
 #rake db:create "RAILS_ENV=test"> /dev/null 2>&1
-rake db:reset "RAILS_ENV=test">> /dev/null 2>&1
+bundle exec rake db:reset "RAILS_ENV=test">> /dev/null 2>&1
 sleep 1
-rake db:migrate "RAILS_ENV=test"> /dev/null 2>&1 # run migrations
+bundle exec rake db:migrate "RAILS_ENV=test"> /dev/null 2>&1 # run migrations
 sleep 1
 # run tests
-rake test:functionals "RAILS_ENV=test">> $LOGFILE 2>&1
+bundle exec rake test:functionals "RAILS_ENV=test">> $LOGFILE 2>&1
 date +Generated\ %h,\ %d\ at\ %T\ %Z > $LOGFILE2 2>&1
 echo >> $LOGFILE2 2>&1
 for i in `ls test/functional/*.rb`; do
-  $RUBY -I test "$i" >> $LOGFILE2 2>&1
+  bundle exec $RUBY -I test "$i" >> $LOGFILE2 2>&1
 done
 
 # pretty it up a little
