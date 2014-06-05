@@ -3,11 +3,11 @@
 
 # run unit tests for mark2
 
-PATH="/bin:/usr/bin:/var/lib/gems/1.8/bin"	# set path
+#PATH="/bin:/usr/bin:/var/lib/gems/1.9.1/bin"	# set path
 RAILS_ENV="test" 	# switch to the test env
 #GEM_PATH="/home/markuspr/ruby/gems"
-#export PATH RAILS_ENV GEM_PATH
-export RAILS_ENV PATH
+#export PATH RAILS_ENV GEM_PATH PATH
+export RAILS_ENV
 RUBY="/usr/bin/ruby"
 
 LOGFILE="log/unit_tests_report.log"
