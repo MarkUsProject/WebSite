@@ -1,0 +1,229 @@
+@import 'reset';
+@import 'constants';
+@import 'mixins';
+
+/** Main */
+
+body {
+  font: 400 16px/24px $fonts;
+  color: $dark-grey;
+}
+
+::selection {
+  background-color: $blue;
+}
+
+::-moz-selection {
+  background-color: $blue;
+}
+
+
+/** Custom scrollbars in WebKit-based browsers */
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-button {
+  &:start:decrement,
+  &:end:increment {
+    background-color: $white;
+    display: block;
+    height: 0;
+    width: 0;
+  }
+}
+
+::-webkit-scrollbar-track-piece {
+  border-radius: 8px;
+  background-color: $white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $grey;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: $blue;
+  }
+
+  &:vertical {
+    height: 50px;
+  }
+
+  &:horizontal {
+    width: 50px;
+  }
+}
+
+
+/** Headings */
+
+h1 {
+  font: 300 2.5em $fonts;
+  margin: 0;
+}
+
+h2 {
+  font: 300 2em $fonts;
+  margin: 0;
+}
+
+h3 {
+  font: 400 1.5em $fonts;
+  margin: 0;
+}
+
+h4 {
+  font: 600 1em $fonts;
+  margin: 0;
+}
+
+
+/** Paragraphs */
+
+p + p {
+  margin-bottom: 1.125em;
+}
+
+
+/** Links */
+
+a {
+  @include transition(all, $time-quick);
+  color: $dark-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+
+/** Buttons */
+
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+button {
+  @include background-gradient($white, $light-grey);
+  @include border-radius($radius);
+  @include box-shadow(inset 0 -1px 0 $grey);
+  @include transition(all, $time-quick);
+  border: 1px solid $blue;
+  color: $dark-grey;
+  font: 400 1em $fonts;
+  min-width: 175px;
+  outline: none;
+  padding: 0.5em 1.5em;
+  text-shadow: 0 1px 0 $white;
+
+  &:hover {
+    @include box-shadow(inset 0 -1px 0 $grey, 0 1px 0 $light-grey);
+    border-color: $dark-blue;
+    color: $dark-blue;
+    top: 1px;
+  }
+
+  &:focus {
+    @include box-shadow(inset 0 -1px 0 $grey, 0 0 3px $blue);
+  }
+
+  &:active {
+    @include background-gradient($light-grey, $white);
+    @include box-shadow(none);
+    color: $dark-blue;
+  }
+
+  &[disabled] {
+    @include background-gradient($light-grey, $disabled-grey);
+    @include box-shadow(none);
+    border-color: $disabled-dark;
+    color: $disabled-dark;
+  }
+
+  &.large-button {
+    min-width: 200px;
+    padding: 0.75em 2em;
+  }
+
+  &.inline-button {
+    min-width: 125px;
+    padding: 0.25em 1em;
+  }
+}
+
+
+/** Tables */
+
+.table {
+  border-left: 1px solid $grey;
+  border-right: 1px solid $grey;
+  overflow-x: auto;
+  width: 100%;
+
+  table {
+    border-top: 1px solid $grey;
+    width: 100%;
+
+    thead {
+      background-color: $light-grey;
+      border-bottom: 2px solid $grey;
+      font-weight: 600;
+      text-align: left;
+      text-transform: uppercase;
+
+      .asc,
+      .des {
+        cursor: pointer;
+
+        &::after {
+          font-size: 0.75em;
+          padding-left: 0.5em;
+        }
+      }
+
+      .asc::after, {
+        content: "▲";
+      }
+
+      .des::after {
+        content: "▼";
+      }
+    }
+
+    tr {
+      border-bottom: 1px solid $grey;
+
+      th,
+      td {
+        border-right: 1px solid $grey;
+        padding: 0.5em 1em;
+        vertical-align: middle;
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        @include transition(all, $time-quick);
+
+        &:nth-child(odd) {
+          background-color: $white;
+        }
+
+        &:nth-child(even) {
+          background-color: $light-grey;
+        }
+
+        &:hover {
+          background: $lighter-blue;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@import 'markus';
+
+body {
+  background: $light-grey;
+}
+
+header {
+  background: $light-blue;
+  display: table;
+  padding: 2em 2em;
+  width: 100%;
+
+  #logo {
+    background: url(../img/markus_logo_big.png) no-repeat;
+    background-size: 206px 69px;
+    display: table-cell;
+    font-size: 0;
+    height: 100px;
+    width: 206px;
+    margin-right: 1em;
+    vertical-align: middle;
+
+    @include breakpoint(mobile) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  nav {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+
+    @include breakpoint(mobile) {
+      display: block;
+      text-align: center;
+    }
+
+    ul {
+      padding: 0 0 0 0;
+
+      li {
+        display: inline-block;
+
+        a {
+          cursor: pointer;
+          padding: 1em;
+        }
+      }
+    }
+  }
+}
+
+section {
+  background: $white;
+  margin: 2em;
+  padding: 1.5em 1em;
+
+  & + section {
+    margin-top: 3em;
+  }
+
+  h2 + h3,
+  h3 + .table {
+    margin-top: 1em;
+  }
+
+  &#credits,
+  &#license {
+    p {
+      font-size: 0.9em;
+    }
+  }
+}
+
+footer {
+  background: $light-blue;
+  text-align: center;
+  padding: 3em 2em;
+}
