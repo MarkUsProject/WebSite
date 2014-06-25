@@ -684,7 +684,7 @@ header {
         display: block;
         text-align: center; } }
     header nav ul {
-      padding: 0 0 0 0; }
+      padding: 0; }
       header nav ul li {
         display: inline-block; }
         header nav ul li a {
