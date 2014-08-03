@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg6059"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="markus_logo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs6061">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective6067" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.96379424"
+     inkscape:cx="343.20506"
+     inkscape:cy="832.32265"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata6064">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3368"
+       transform="matrix(2.6094315,0,0,2.6094315,-1120.6159,-751.10496)">
+      <path
+         sodipodi:nodetypes="cscccc"
+         inkscape:export-ydpi="2000"
+         inkscape:export-xdpi="2000"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_transparent_bg.png"
+         id="path5501"
+         d="M 509.46116,423.01141 C 509.46116,423.01141 507.86465,425.31197 506.68134,427.13509 C 505.28754,429.28253 503.20971,433.01303 503.20971,433.01303 C 503.8007,441.27779 509.66903,446.33038 513.12442,448.61711 L 523.86668,448.61711 C 515.46636,443.72021 506.24155,436.55116 509.46116,423.01141 z"
+         style="fill:#002255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="2000"
+         inkscape:export-xdpi="2000"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_transparent_bg.png"
+         sodipodi:nodetypes="ccsccc"
+         d="M 477.0899,448.61711 C 484.39646,443.95109 487.57922,436.71112 489.38474,430.94558 C 489.38474,430.94558 489.47485,430.68512 490.37381,434.07653 C 491.0381,436.58267 491.67949,439.55584 491.67949,439.55584 C 490.21572,443.5441 488.48672,445.95679 485.99132,448.61711 L 477.0899,448.61711 z"
+         id="path5503"
+         style="fill:#002255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="2000"
+         inkscape:export-xdpi="2000"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_transparent_bg.png"
+         sodipodi:nodetypes="ccccccccsscccc"
+         style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:1.06034601;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 523.3834,408.083 L 514.70278,413.67095 C 512.16578,415.50198 509.62333,417.32235 507.33158,419.44767 C 504.24581,422.40796 500.33867,425.99766 497.67991,429.54751 C 497.65395,429.53538 497.63282,429.5218 497.60633,429.50976 C 497.05302,427.36054 496.87383,427.057 495.93305,425.03468 L 489.79377,426.37597 C 490.80751,428.2988 491.37051,430.42074 491.89772,432.51139 C 492.33632,434.186 492.58084,435.8705 493.12684,437.49261 C 493.33654,438.11563 493.67564,438.53053 494.06992,438.74264 C 497.54238,440.61081 502.62418,429.9167 504.05061,427.71634 C 508.31394,420.33437 515.85778,414.36903 523.42755,409.23458 C 523.94892,408.73551 524.02323,408.95504 523.6041,408.23403 C 523.44331,408.1019 523.53103,408.13452 523.3834,408.083 z"
+         id="path5505" />
+      <text
+         xml:space="preserve"
+         style="font-size:24.81372261px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#002255;fill-opacity:1;stroke:none;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         x="521.79059"
+         y="448.46814"
+         id="text5507"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_transparent_bg.png"
+         inkscape:export-xdpi="2000"
+         inkscape:export-ydpi="2000"><tspan
+           sodipodi:role="line"
+           id="tspan5509"
+           x="521.79059"
+           y="448.46814">arkUs</tspan></text>
+      <path
+         id="path5513"
+         d="M 523.3834,408.083 L 514.70278,413.67095 C 508.3126,418.11609 502.58329,423.50705 497.67991,429.54751 C 497.65395,429.53538 497.63282,429.5218 497.60633,429.50976 C 497.05302,427.36054 496.87383,427.057 495.93305,425.03468 L 489.79377,426.37597 C 490.80751,428.2988 491.37051,430.42074 491.89772,432.51139 C 492.33632,434.186 492.58084,435.8705 493.12684,437.49261 C 493.33654,438.11563 493.67564,438.53053 494.06992,438.74264 C 497.54238,440.61081 502.62418,429.9167 504.05061,427.71634 C 508.31394,420.33437 515.85778,414.36903 523.42755,409.23458 C 523.94892,408.73551 524.02323,408.95504 523.6041,408.23403 C 523.44331,408.1019 523.53103,408.13452 523.3834,408.083 z"
+         style="fill:#afc6e9;fill-opacity:1;fill-rule:nonzero;stroke:#002255;stroke-width:1.05999994;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cccccccsscccc"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_transparent_bg.png"
+         inkscape:export-xdpi="2000"
+         inkscape:export-ydpi="2000" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.53834343;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5602"
+       width="149.77597"
+       height="138.83479"
+       x="509.08282"
+       y="298.46518"
+       inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_best.png"
+       inkscape:export-xdpi="52.294128"
+       inkscape:export-ydpi="52.294128" />
+    <g
+       id="g3381"
+       transform="matrix(2.6094315,0,0,2.6094315,-1120.6159,-751.10496)">
+      <path
+         style="fill:#002255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 661.12302,422.46651 C 661.12302,422.46651 659.52651,424.76707 658.3432,426.59019 C 656.94941,428.73763 654.87157,432.46813 654.87157,432.46813 C 655.46257,440.73289 661.33089,445.78548 664.78629,448.07221 L 675.52854,448.07221 C 667.12822,443.17531 657.90341,436.00626 661.12302,422.46651 z"
+         id="path5604"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_best.png"
+         inkscape:export-xdpi="52.294128"
+         inkscape:export-ydpi="52.294128"
+         sodipodi:nodetypes="cscccc" />
+      <path
+         style="fill:#002255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path5606"
+         d="M 628.75176,448.07221 C 636.05832,443.40619 639.24109,436.16622 641.0466,430.40068 C 641.0466,430.40068 641.13671,430.14022 642.03567,433.53163 C 642.69997,436.03777 643.34135,439.01094 643.34135,439.01094 C 641.87758,442.9992 640.14858,445.41189 637.65319,448.07221 L 628.75176,448.07221 z"
+         sodipodi:nodetypes="ccsccc"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_best.png"
+         inkscape:export-xdpi="52.294128"
+         inkscape:export-ydpi="52.294128" />
+      <path
+         id="path5608"
+         d="M 675.04526,407.5381 L 666.36464,413.12605 C 663.82765,414.95708 661.28519,416.77745 658.99345,418.90277 C 655.90767,421.86306 652.00054,425.45276 649.34177,429.00261 C 649.31582,428.99048 649.29468,428.9769 649.2682,428.96486 C 648.71489,426.81564 648.5357,426.5121 647.59492,424.48978 L 641.45563,425.83107 C 642.46937,427.7539 643.03237,429.87584 643.55958,431.96649 C 643.99818,433.6411 644.24271,435.3256 644.7887,436.94771 C 644.9984,437.57073 645.3375,437.98563 645.73178,438.19774 C 649.20425,440.06591 654.28604,429.3718 655.71247,427.17144 C 659.9758,419.78947 667.51964,413.82413 675.08941,408.68968 C 675.61078,408.19061 675.68509,408.41014 675.26596,407.68913 C 675.10517,407.557 675.19289,407.58962 675.04526,407.5381 z"
+         style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:1.06034601;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="ccccccccsscccc"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_best.png"
+         inkscape:export-xdpi="52.294128"
+         inkscape:export-ydpi="52.294128" />
+      <path
+         inkscape:export-ydpi="52.294128"
+         inkscape:export-xdpi="52.294128"
+         inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_logo_best.png"
+         sodipodi:nodetypes="ccccccsscccc"
+         style="fill:#afc6e9;fill-opacity:1;fill-rule:nonzero;stroke:#002255;stroke-width:1.06034601;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 675.04526,407.5381 C 665.20806,413.17058 656.7117,420.41041 649.34177,429.00261 C 649.31582,428.99048 649.29468,428.9769 649.2682,428.96486 C 648.71489,426.81564 648.5357,426.5121 647.59492,424.48978 L 641.45563,425.83107 C 642.46937,427.7539 643.03237,429.87584 643.55958,431.96649 C 643.99818,433.6411 644.24271,435.3256 644.7887,436.94771 C 644.9984,437.57073 645.3375,437.98563 645.73178,438.19774 C 649.20425,440.06591 654.28604,429.3718 655.71247,427.17144 C 659.9758,419.78947 667.51964,413.82413 675.08941,408.68968 C 675.61078,408.19061 675.68509,408.41014 675.26596,407.68913 C 675.10517,407.557 675.19289,407.58962 675.04526,407.5381 z"
+         id="path5614" />
+    </g>
+    <rect
+       y="385.59628"
+       x="666.07764"
+       height="35.555954"
+       width="20.109514"
+       id="rect6027"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       y="395.81461"
+       x="670.56287"
+       height="13.000237"
+       width="13.000237"
+       id="rect6029"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.29365528;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_icon.png"
+       inkscape:export-xdpi="289.04001"
+       inkscape:export-ydpi="289.04001" />
+    <path
+       sodipodi:nodetypes="cscccc"
+       inkscape:export-ydpi="289.04001"
+       inkscape:export-xdpi="289.04001"
+       inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_icon.png"
+       id="path6031"
+       d="M 679.41767,402.33449 C 679.41767,402.33449 679.0017,402.81916 678.69339,403.2033 C 678.33024,403.65572 677.78883,404.44168 677.78883,404.44168 C 677.94284,406.18293 679.47184,407.24739 680.37214,407.72917 L 683.17112,407.72917 C 680.98236,406.69748 678.57879,405.18709 679.41767,402.33449 z"
+       style="fill:#002255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="289.04001"
+       inkscape:export-xdpi="289.04001"
+       inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_icon.png"
+       sodipodi:nodetypes="ccsccc"
+       d="M 670.70759,407.73163 C 672.7101,406.61035 673.58243,404.87059 674.07726,403.48514 C 674.07726,403.48514 674.10197,403.42254 674.3483,404.23752 C 674.53036,404.83975 674.70615,405.55419 674.70615,405.55419 C 674.30501,406.51258 673.83111,407.09234 673.14723,407.73163 L 670.70759,407.73163 z"
+       id="path6033"
+       style="fill:#002255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path6035"
+       d="M 683.06865,397.12434 L 680.88542,398.52975 C 680.24739,398.99027 679.60792,399.44812 679.03152,399.98261 C 678.25548,400.72716 677.27282,401.62997 676.60412,402.52278 C 676.5976,402.51973 676.59228,402.51634 676.5856,402.51329 C 676.44644,401.97274 676.40137,401.89642 676.16472,401.38779 L 674.62067,401.72511 C 674.87564,402.20877 675.01725,402.74242 675.14984,403.26825 C 675.26014,403.68938 675.32164,404.11305 675.45892,404.52103 C 675.51174,404.67771 675.59699,404.78203 675.69615,404.83542 C 676.56952,405.3053 677.84762,402.6156 678.20637,402.06222 C 679.27861,400.20561 681.1759,398.70529 683.07974,397.41399 C 683.21092,397.28847 683.2296,397.34366 683.12415,397.16236 C 683.08371,397.12912 683.10581,397.13731 683.06865,397.12434 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002255;stroke-width:0.45299971;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="ccccccccsscccc"
+       inkscape:export-filename="/home/severin/Documents/uoft/projects/reid_olm/design/markus_icon.png"
+       inkscape:export-xdpi="289.04001"
+       inkscape:export-ydpi="289.04001" />
+    <text
+       id="text6037"
+       y="417.62042"
+       x="668.90491"
+       style="font-size:7.27140045px;font-style:normal;font-weight:normal;fill:#002255;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="417.62042"
+         x="668.90491"
+         id="tspan6039"
+         sodipodi:role="line">Icon</tspan></text>
+  </g>
+</svg>
