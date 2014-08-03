@@ -1,0 +1,157 @@
+@import 'markus';
+
+body {
+  background: $light-grey;
+}
+
+::selection {
+  background: $light-blue;
+}
+
+header {
+  background: $light-blue url(../img/hero-tint.jpg) no-repeat top center;
+  background-size: cover;
+  padding-bottom: 2em;
+  width: 100%;
+
+  #header-menu {
+    background: rgba(255,255,255,.45);
+    display: table;
+    text-align: right;
+    padding: 1.5em 3em;
+    width: 100%;
+
+    @include breakpoint(mobile) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  ul {
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      cursor: pointer;
+      padding: 1em;
+
+      &:hover {
+        color: $white;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  #logo {
+    background: url(../img/markus_logo_big.png) no-repeat;
+    background-size: 206px 69px;
+    display: table-cell;
+    font-size: 0;
+    height: 100px;
+    width: 206px;
+    margin-right: 1em;
+    vertical-align: middle;
+
+    @include breakpoint(mobile) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  #hero {
+    color: $white;
+    margin: 6em 0;
+    text-align: center;
+    width: 100%;
+
+    h2 {
+    font-weight: 300;
+    }
+  }
+}
+
+.main-block {
+  background: $white;
+  margin: 2em;
+  padding: 1.5em 1em;
+
+  & + .main-block {
+    margin-top: 3em;
+  }
+
+  h2 {
+    border-bottom: 1px solid $light-grey;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.35em;
+  }
+
+  h2 + h3 {
+    margin-top: 1em;
+  }
+}
+
+#about {
+  margin-top: -2em;
+}
+
+#download {
+  .table {
+    margin-top: 1em;
+  }
+}
+
+#credits,
+#license {
+  p {
+    font-size: 0.9em;
+  }
+}
+
+footer {
+  background: $light-blue;
+  padding: 3em 2em;
+
+  #copyright {
+    border-bottom: 1px solid $blue;
+    padding-bottom: 4em;
+    text-align: center;
+    width: 100%;
+  }
+
+  section {
+    display: table-cell;
+    font-size: 0.9em;
+    padding-top: 2em;
+    width: 50%;
+
+    @include breakpoint(mobile) {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  #credits {
+    padding-right: 2em;
+
+    @include breakpoint(mobile) {
+      padding-right: 0;
+    }
+  }
+
+  #license {
+    padding-left: 2em;
+
+    @include breakpoint(mobile) {
+      padding-left: 0;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Files ignored by git
+# Ignore nncessary mac files
+.DS_Store
+
+# Files created by sass
+.sass-cache
+
+# Patch
+*.diff
+*.patch
+
+# Vim swap files
+*.swp
+
+# Windows junk
+thumbs.db
+
+# Temporary and backup files
+*~
