@@ -17,3 +17,6 @@ thumbs.db
 
 # Temporary and backup files
 *~
+
+/node_modules
+/www
