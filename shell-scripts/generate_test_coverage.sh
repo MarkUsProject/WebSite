@@ -2,9 +2,9 @@
 # set -v
 
 # set environment
-PATH="/bin:/usr/bin:/var/lib/gems/1.8/bin" 
+#PATH="/bin:/usr/bin:/var/lib/gems/1.8/bin" 
 #GEM_PATH="/home/markuspr/ruby/gems"
-export PATH
+#export PATH
 
 # other config
 MARKUS_APP_PATH="/home/markus/rcov"
@@ -23,5 +23,4 @@ sleep 1
 bundle exec rake db:migrate "RAILS_ENV=test" > /dev/null 2>&1 # run migrations
 sleep 1
 # generate coverage for unit and functional tests
-bundle exec rcov --no-html -T -x "/home/markuspr/ruby/.*,rcov.*,lib/.*" --rails  -I"lib:test" "/var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb" `ls test/unit/*.rb` --aggregate $MARKUS_APP_PATH/coverage.data  > $RCOV_LOG 2>&1
-bundle exec rcov -o "$MARKUS_APP_PATH/coverage" -T -x "/home/markuspr/ruby/.*,rcov.*,lib/.*" --rails  -I"lib:test" "/var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb" `ls test/functional/*.rb` --aggregate $MARKUS_APP_PATH/coverage.data > $RCOV_LOG 2>&1
+bundle exec rake coverage:all >$RCOV_LOG 2>&1
