@@ -88,8 +88,8 @@
 
     <h3>System Requirements</h3>
     <ul>
-      <li>Rails 3.0.20/Ruby &gt;= 2.0.0</li>
-      <li>Mongrel/Passenger/Unicorn</li>
+      <li>Rails 3.0/Ruby 1.9.3+ (2.1.2 recommended)</li>
+      <li>Unicorn/Passenger</li>
       <li>PostgreSQL/MySQL</li>
       <li>Subversion</li>
     </ul>
@@ -126,39 +126,16 @@
       </table>
     </div>
 
-    <ul>
-      <li><a href='http://github.com/MarkUsProject/Markus'>Source Code</a></li>
-      <li><a href='http://www.markusproject.org/dev/app_doc/'>MarkUs RDoc</a></li>
-      <li><a href='http://www.markusproject.org/dev/test_coverage/'>Test Coverage</a></li>
-      <li><a href='http://www.markusproject.org/dev/unit_tests_report.html'>Units Test Report</a></li>
-      <li><a href='http://www.markusproject.org/dev/functional_tests_report.html'>Functional Test Report</a></li>
-    </ul>
-
     <h3>Style guide/UI library</h3>
-    <p>You can download the UI library used for MarkUs, along with see examples of how to use it, in the <a href='http://echeung.me/markus-style/'>official style guide</a>.<p>
-  </section>
-
-  <section class='main-block' id='screencasts'>
-    <h2>Screencasts</h2>
-
-    <p>Here are are some screencasts of MarkUs (reverse chronological order):</p>
-    <ul>
-      <li><a href='http://www.youtube.com/watch?v=ofpyaty20FQ'>Student File Submission: September 2, 2009</a><br/>
-      This screencast demonstrates how students can upload, replace and delete files  using MarkUs' easy to use Web interface. The nice part is that files really end up in a Subversion repository (without students ever noticing).
-      </li>
-      <li><a href='http://www.youtube.com/watch?v=Ed_z_tHCAg8'>Student Group Formation: August 17, 2009</a><br/>
-      MarkUs supports various course models. One possibility of which is that an instructor can allow students to work in teams. If an Assignment is set up this way, students can go and start form groups on their own using MarkUs.
-      </li>
-      <li><a href='http://www.cs.toronto.edu/~reid/screencasts/OLM-2009-06-03.swf'>The Grader View: June 6, 2009</a><br/>
-      The grader view is one of the core functionalities of MarkUs, which allows graders (usually TAs) to mark a student's/group's work for an assignment. He or she can annotate the submitted source code - which is syntax highlighted - and mark according to rubrics defined by the instructor.
-      </li>
-    </ul>
+    <p>You can download the UI library used for MarkUs, along with see examples of how to use it, in the <a href='http://echeung.me/markus-ui/'>official style guide</a>.<p>
   </section>
 
   <section class='main-block' id='help'>
     <h2>Helping out</h2>
 
     <p>Found a bug?  Want a feature?  Please email <a href='mailto:info@markusproject.org'>info@markusproject.org</a>.</p>
+
+    <p>You can help develop MarkUs. The source code is available openly on <a href='http://github.com/MarkUsProject/Markus'>GitHub</a>! You can also view the <a href='http://www.markusproject.org/dev/app_doc/'>MarkUs RDoc</a></p>
   </section>
 
   <section class='main-block' id='contact'>
@@ -167,16 +144,16 @@
     <p>Want the latest MarkUs news? It's available several ways:</p>
 
     <ul>
-      <li>Email a security alert to <a href='mailto:security@markusproject.org'>security@markusproject.org</a></li>
-      <li>Email a general inquiry to <a href='mailto:info@markusproject.org'>info@markusproject.org</a></li>
-      <li>Mailing list: <a href='http://markusproject.org/cgi-bin/mailman/listinfo/markus-users'>MarkUs Users</a></li>
+      <li>Security alerts can be sent to <a href='mailto:security@markusproject.org'>security@markusproject.org</a></li>
+      <li>General queries can be sent to <a href='mailto:info@markusproject.org'>info@markusproject.org</a></li>
       <li>The development team has a blog at <a href='http://blog.markusproject.org'>http://blog.markusproject.org</a></li>
+      <li>Mailing list: <a href='http://markusproject.org/cgi-bin/mailman/listinfo/markus-users'>MarkUs Users</a></li>
       <li><a href='irc://irc.freenode.net/#markus'>IRC channel</a> on Freenode (<a href='http://www.markusproject.org/irc/'>Logs</a>)</li>
     </ul>
   </section>
 
   <footer>
-    <p id='copyright'>Copyright &copy; 2008 - 2014 by the authors</p>
+    <p id='copyright'>Copyright &copy; 2008 - 2015 by the authors</p>
 
     <section id='credits'>
       <h2>Credits</h2>
@@ -197,28 +174,10 @@
       </p>
 
       <p>
-        Aaron Lee, Abdelhamid Benmouffok, Adam Goucher, Aimen Khan, Alexandre Lissy,
-        Alex Krassikov, Alysha Kwok, Amanda Manarin, Andrew Louis, Andrey Kulakevich,
-        Angelo Maralit, Ante Zheng, Anthony Labaëre, Anthony Le Jallé, Anton Braverman,
-        Augustin Doury, Benjamin Thorent, Benjamin Vialle, Bertan Guven, Brian Bo, Brian Xu,
-        Bryan Shen, Camille Guérin, Catherine Fawcett, Christian Jacques, Christine Yu,
-        Claire Mayer, Clément Delafargue, Clément Schiano, Danesh Dadachanji, Daniel St. Jules,
-        Daryn Lam, Derek Dowling, Diane Tam, Dina Sabie, Ealona Shmoel, Egor Philippov,
-        Emerik Morency, Erik Traikov, Eugene Cheung, Evan Browning, Farah Juma, Fernando Garces,
-        François Neber, Gabriel Roy-Lortie, Gaëtan Girin, Geoffrey Flores, Ghislain Guiot,
-        Hanson Wu, Horatiu Halmaghi, Ian Smith, Ibrahim Shahin, Jay Parekh, Jeffrey Ling,
-        Jérôme Gazel, Jiahui Xu, Joel Burford, Joey Perry, Jordan Saleh, Joseph Mate, Joseph Maté,
-        Julien Starozinski, Justin Foong, Karel Kahula, Kira McCoan, Kristian Lejao, Kurtis Schmidt,
-        Lawrence Wu, Loïc Labagnara, Luke Kysow, Marc Bodmer, Mark Rada, Mélanie Gaudet, Michael Ing,
-        Michael Lumbroso, Michael Margel, Mike Conley, Mike Gunderloy, Mike Stewart, Mike Wu,
-        Mina Almasry, Misa Sakamoto, Neha Kumar, Nelle Varoquaux, Nick Lee, Nicolas Bouillon,
-        Nicolas Carougeau, Noé Bedetti, Oloruntobi Ogunbiyi, Oussama Ben Amar, Razvan Vlaicu,
-        Robert Burke, Samuel Gougeon, Sean Budning, Severin Gehwolf, Shion Kashimura,
-        Simon Lavigne-Giroux, Su Zhang, Tara Clark, Tianhai Hu, Valentin Roger, Veronica Wong,
-        Victoria Mui, Victor Ivri, Vivien Suen, Yansong Zang
+        Aaron Lee, Adam Goucher, Aimen Khan, Alexander Kittelberger, Alexandre Lissy, Alex Grenier, Alex Krassikov, Alysha Kwok, Amanda Manarin, Andrew Hernandez, Andrew Louis, Angelo Maralit, Anthony Le Jallé, Anton Braverman, David Das, Arianne Dee, Benjamin Thorent, Benjamin Vialle, Bertan Guven, Brian Xu, Bryan Shen, Bryan Muscedere, Camille Guérin, Catherine Fawcett, Chris Kellendonk, Christian Jacques, Christian Millar, Christine Yu, Christopher Jonathan, Clément Delafargue, Clément Schiano, Danesh Dadachanji, Daniel St. Jules, Daniyal Liaqat, Daryn Lam, David Liu, Diane Tam, Dina Sabie, Dylan Runkel, Ealona Shmoel, Egor Philippov, Erik Traikov, Eugene Cheung, Evan Browning, Farah Juma, Fernando Garces, Gabriel Roy-Lortie, Gillian Chesnais, Geoffrey Flores, Hanson Wu, Haohan David Jiang, Horatiu Halmaghi, Ian Smith, Ibrahim Shahin, Ishan Thukral, Irene Fung, Jakub Subczynski, Jay Parekh, Jeffrey Ling, Jeremy Merkur, Jeremy Winter, Jérôme Gazel, Jiahui Xu, Jordan Saleh, Joseph Mate, Joseph Maté, Joshua Dyck, Junghwan Tom Choi, Justin Foong, Karel Kahula, Kitiya Srisukvatananan, Kurtis Schmidt, Lawrence Wu, Luke Kysow, Marc Bodmer, Marc Palermo, Mark Rada, Mark Kazakevich, Maryna Moskalenko, Mélanie Gaudet, Michael Lumbroso, Mike Conley, Mike Gunderloy, Mike Stewart, Mike Wu, Misa Sakamoto, Nathan ChowNeha Kumar, Nelle Varoquaux, Nicholas Maraston, Nicolas Bouillon, Nick Lee, Nicolas Carougeau, Noé Bedetti, Oloruntobi Ogunbiyi, Ope Akanji, Paymahn Moghadasian, Peter Guanjie Zhao, Rafael Padilha, Razvan Vlaicu, Robert Burke, Ryan Spring, Samuel Gougeon, Sean Budning, Severin Gehwolf, Shenglong Gao, Shion Kashimura, Simon Lavigne-Giroux, Stephen Tsimicalis, Su Zhang, Tara Clark, Tiago Chedraoui Silva, Tianhai Hu, Valentin Roger, Veronica Wong, Victoria Mui, Victoria Verlysdonk, Victor Ivri, Vivien Suen, William Roy, Xiang Yu, Yansong Zang, Yusi Fan, Zachary Munro-Cape
       </p>
 
-      <p><strong>Supervisors:</strong> Karen Reid, Morgan Magnin, David Liu</p>
+      <p><strong>Supervisors:</strong> Karen Reid, Morgan Magnin, Benjamin Vialle, David Liu</p>
     </section>
 
     <section id='license'>
